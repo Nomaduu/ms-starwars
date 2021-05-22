@@ -65,8 +65,8 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v1.6
         env:
-          GITHUB_TOKEN: ${{ secrets.Test3 }}
-          SONAR_TOKEN: ${{ secrets.Test2 }}
+          GITHUB_TOKEN: ${{ secrets.TEST3 }}
+          SONAR_TOKEN: ${{ secrets.TEST2 }}
         with:
           args: >
             -Dsonar.organization=nomaduu
