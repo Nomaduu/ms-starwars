@@ -66,7 +66,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v1.6
         env:
           GITHUB_TOKEN: ${{ secrets.TEST3 }}
-          SONAR_TOKEN: ${{ secrets.TEST2 }}
+          SONAR_TOKEN: ${{ secrets.TOKENSONAR }}
         with:
           args: >
             -Dsonar.organization=nomaduu
