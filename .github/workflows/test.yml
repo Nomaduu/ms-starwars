@@ -65,8 +65,8 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v1.6
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
-          SONAR_TOKEN: ${{ secrets.c448590a4bb99062d9b8a10e1b98611af37c7fbb }}
+          GITHUB_TOKEN: ${{ secrets.Test3 }}
+          SONAR_TOKEN: ${{ secrets.Test2 }}
         with:
           args: >
             -Dsonar.organization=nomaduu
