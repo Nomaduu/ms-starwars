@@ -82,8 +82,8 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: nomaduu.jfrog.io
-          username: ${{ secrets.JFROG_USERNAME }}
-          password: ${{ secrets.JFROG_PASSWORD }}
+          username: ${{ secrets.FROG_USERNAME }}
+          password: ${{ secrets.FROG_PASSWORD }}
      
      #24. dodaj fazę budowania i promocji obrazu
       - name: Build and push
